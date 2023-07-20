@@ -54,13 +54,13 @@ export default function Home(){
     
     useEffect(()=>{
         if(isInView){
-            motionValue.set(value);
+            motionValue.set(value!);
         }
     }, [isInView, value, motionValue])
     
     useEffect(()=> {
         springValue.on("change", (latest) => {
-            if( ref.current && latest.toFixed(0) <= value ){
+            if( ref.current && latest.toFixed(0) <= value! ){
                 ref.current.textContent = latest.toFixed(0);
             }
         })
@@ -183,7 +183,7 @@ useEffect(() => {
         <div className="flex text-black"><div className="text-primary pr-2">{valid? <AnimatedNumbers value={total.year}/> :'--'}</div>years</div>
         <div className="flex text-black"><div className="text-primary pr-2">{valid? <AnimatedNumbers value={total.month}/> :'--'}</div>months</div>
         <div className="flex text-black"><div className="text-primary pr-2">{valid?  <AnimatedNumbers value={total.day}/> :'--'}</div>days</div>
-        </div>
+      </div>
     </motion.main>
   )
 }
