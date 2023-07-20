@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/screenshots/screenshot.jpg)
+![](./public/screens/desktop.png)
 
 ### Links
 
@@ -83,9 +83,3 @@ is making a new component with "use client" is the only solution
 - Website - [Irbaine](https://www.irbaine.com)
 - Frontend Mentor - [Irbaine](https://www.frontendmentor.io/profile/irbaine)
 - Twitter - [Amineirb](https://twitter.com/amineirb)
-
-
-
-desctition: 
-
-https://www.joshwcomeau.com/css/custom-css-reset/
