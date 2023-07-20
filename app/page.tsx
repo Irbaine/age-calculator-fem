@@ -24,7 +24,7 @@ const poppinsLight = Poppins({
 })
 
 interface props {
-  value : number | null,
+  value : number | null;
 }
 
 
@@ -46,7 +46,7 @@ export default function Home(){
 
 
   const AnimatedNumbers = ({value}:props) => {
-    const ref = useRef (null);
+    const ref = useRef<any> (null);
     
     const motionValue = useMotionValue (0);
     const springValue = useSpring(motionValue, { duration: 2000 });
