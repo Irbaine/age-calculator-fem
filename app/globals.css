@@ -7,3 +7,13 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
+.custom-border{
+  border-radius: 1.2rem 1.2rem 12rem 1.2rem;
+}
+
+.test{
+  font-size: clamp(2rem, 1.0526rem + 4.2105vw ,5rem);
+  line-height: 110% ;
+}
+

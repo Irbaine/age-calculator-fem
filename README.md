@@ -12,10 +12,8 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,6 +30,7 @@ Users should be able to:
   - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
+- On click enter the form submits the values
 - **Bonus**: See the age numbers animate to their final number when the form is submitted
 
 ### Screenshot
@@ -45,41 +44,39 @@ Users should be able to:
 
 ## My process
 
-/////chanllenges
-Honestly the new next.js version with app is very very frustrating for me. use client is even the least of my frustration lol. I would have to take my time to learn more about it and get used to it
-
-Moving to server side react is going to take a lot of effort, especially for library devs. It's not there yet in any UI libraries.
-
-the complex part is some server component also need using states and hooks which requires "use client"
-is making a new component with "use client" is the only solution
+The challenge itself is very easy, I used Nextjs 13 and Tailwind Css for styling.
+But the logic of the app took me some time, especially for the leap years which contains one additional day that should be added to the result, I also took in consediration the problem of negative results.
+I did manual testing for the app which may not be ideal for bigger future projects.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Framer Motion](https://www.framer.com) - For Animation
 
 ### What I learned
 
+This challenge seems very easy at first and i was thinking that i would solve it in a less than one day...
+But it seems that the input validation is not an easy process and it take much time for implement and test things manually,
+The use of libraries is important for future project as the forms gets more large and complicated the data validation would be then challenging to deal with which increases the chances for more bugs.
 
 
 ### Continued development
 
-areas that you want to continue focusing on in future projects
-concepts you're still not completely comfortable with 
+Architecture problems are the most chalenging part of my current learning process.
+Should i use useMemo ? should is useEffect ? use context... ? good decision making giving me hard times to addapt with react hooks easily.
+I want to be more comfortable making the right decision with the strecture to produce effeciant minized codes with no memory leaks.
 
-### Useful resources
+Honestly the new next.js version with app is very very frustrating for me. use client is even the least of my frustration lol. I would have to take my time to learn more about it and get used to it
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Moving to server side react is going to take a lot of effort, especially for library devs. It's not there yet in any UI libraries.
 
+the complex part is some server component also need using states and hooks which requires "use client"
+is making a new component with "use client" is the only solution
 
 ## Author
 
@@ -88,6 +85,7 @@ concepts you're still not completely comfortable with
 - Twitter - [Amineirb](https://twitter.com/amineirb)
 
 
-## Acknowledgments
 
-give a hat tip to anyone who helped you
+desctition: 
+
+https://www.joshwcomeau.com/css/custom-css-reset/
