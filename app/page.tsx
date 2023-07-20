@@ -23,6 +23,10 @@ const poppinsLight = Poppins({
   display: 'swap',
 })
 
+interface props {
+  value : number | null,
+}
+
 
 export default function Home(){
   const currentDay = new Date().getDate();
@@ -41,7 +45,7 @@ export default function Home(){
   const longMonths = [1,3,5,7,8,10,12];
 
 
-  const AnimatedNumbers = ({value}) => {
+  const AnimatedNumbers = ({value}:props) => {
     const ref = useRef (null);
     
     const motionValue = useMotionValue (0);
@@ -50,13 +54,13 @@ export default function Home(){
     
     useEffect(()=>{
         if(isInView){
-            motionValue.set(value);
+            motionValue.set(value!);
         }
     }, [isInView, value, motionValue])
     
     useEffect(()=> {
         springValue.on("change", (latest) => {
-            if( ref.current && latest.toFixed(0) <= value ){
+            if( ref.current && latest.toFixed(0) <= value! ){
                 ref.current.textContent = latest.toFixed(0);
             }
         })
@@ -115,7 +119,7 @@ useEffect(() => {
 // On Submition
   function submit (){
     const checker = ()=>{  
-    if (total.day < 1){
+    if (total.day! < 1){
     setMonth( month! - 1);
     setDay(maxDays - day! - leap.days);
   } else if (currentMonth < month!){
@@ -134,7 +138,7 @@ useEffect(() => {
     setSubmit(true);
   }}
   
-  const handleKeyPress = e =>{
+  const handleKeyPress = (e:any) =>{
     if (e.key === "Enter"){
       submit();
     }}
@@ -179,7 +183,7 @@ useEffect(() => {
         <div className="flex text-black"><div className="text-primary pr-2">{valid? <AnimatedNumbers value={total.year}/> :'--'}</div>years</div>
         <div className="flex text-black"><div className="text-primary pr-2">{valid? <AnimatedNumbers value={total.month}/> :'--'}</div>months</div>
         <div className="flex text-black"><div className="text-primary pr-2">{valid?  <AnimatedNumbers value={total.day}/> :'--'}</div>days</div>
-        </div>
+      </div>
     </motion.main>
   )
 }
