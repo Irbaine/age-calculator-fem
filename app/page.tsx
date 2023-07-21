@@ -171,7 +171,7 @@ useEffect(() => {
         <div className="flex flex-col w-1/4 sm:hidden"></div> 
       </div> 
       <div className="flex w-full items-center my-0 sm:relative sm:my-[8%]"><span className={'h-[1px] w-[85%] bg-line -bottom-0.5 sm:w-[95%] sm:m-auto sm:my-[6vh]'}>&nbsp;</span>
-        <motion.button onClick={()=>submit()} type='button' className="flex items-center justify-center bg-primary rounded-full w-[80px] h-[80px] hover:bg-black sm:absolute sm:m-auto sm:right-0 sm:left-0"
+        <motion.button onClick={()=>submit()} type='button' role="button" className="flex items-center justify-center bg-primary rounded-full w-[80px] h-[80px] hover:bg-black sm:absolute sm:m-auto sm:right-0 sm:left-0"
           whileHover={{scale: 1.2}}
           whileTap={{scale: 0.9}}
           transition={{type: "spring", stiffness: 400, damping: 17}}
