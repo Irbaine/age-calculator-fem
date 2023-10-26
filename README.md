@@ -50,10 +50,10 @@ I did manual testing of the app which may not be ideal for bigger future project
 
 ### Built with
 
-- [React](https://reactjs.org/) - JS library <a href="https://nextjs.org/" target="_blank" rel="nofollow" style="display: inline-block;"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="20" height="20"/> </a>
+- [React](https://reactjs.org/) - JS library <a href="https://nextjs.org/" target="_blank" rel="nofollow" style="margin-bottom:-3px;"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="20" height="20"/> </a>
 - [Next.js](https://nextjs.org/) - React framework <a href="https://reactjs.org/" target="_blank" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="20" height="20"/> </a>
-- [Tailwind CSS](https://tailwindcss.com/) - For styles <a href="https://tailwindcss.com/" target="_blank" rel="nofollow"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="20" height="20" style="position: relative; top: -4px;"/> </a>
-- [Framer Motion](https://www.framer.com) - For Animation <a href="https://www.framer.com/motion/" target="_blank" rel="nofollow"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="Framer Motion" width="20" height="20"/> </a>
+- [Tailwind CSS](https://tailwindcss.com/) - For styles <a href="https://tailwindcss.com/" target="_blank" rel="nofollow"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="20" height="20" /> </a>
+- [Framer Motion](https://www.framer.com) - For Animation <a href="https://www.framer.com/motion/" target="_blank" rel="nofollow" style="margin-bottom:-3px;"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="Framer Motion" width="15" height="15"/> </a>
 
 ### What I learned
 
