@@ -50,10 +50,10 @@ I did manual testing of the app which may not be ideal for bigger future project
 
 ### Built with
 
-- [React](https://reactjs.org/) - JS library <img src="https://skillicons.dev/icons?i=react"/>
-- [Next.js](https://nextjs.org/) - React framework <img src="https://skillicons.dev/icons?i=nexts"/>
-- [Tailwind CSS](https://tailwindcss.com/) - For styles <img src="https://skillicons.dev/icons?i=tailwind"/>
-- [Framer Motion](https://www.framer.com) - For Animation <i class="ci ci-framer-motion"></i>
+- [React](https://reactjs.org/) - JS library <a href="https://nextjs.org/" target="_blank" rel="nofollow"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="10" height="10"/> </a>
+- [Next.js](https://nextjs.org/) - React framework <a href="https://reactjs.org/" target="_blank" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="10" height="10"/> </a>
+- [Tailwind CSS](https://tailwindcss.com/) - For styles <a href="https://tailwindcss.com/" target="_blank" rel="nofollow"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="10" height="10"/> </a>
+- [Framer Motion](https://www.framer.com) - For Animation <a href="https://www.framer.com/motion/" target="_blank" rel="nofollow"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="Framer Motion" width="10" height="10"/> </a>
 
 ### What I learned
 
