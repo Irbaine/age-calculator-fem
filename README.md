@@ -1,6 +1,6 @@
 # Frontend Mentor - Age calculator app solution
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -13,7 +13,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-
 
 ## Overview
 
@@ -51,10 +50,10 @@ I did manual testing of the app which may not be ideal for bigger future project
 
 ### Built with
 
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Tailwind CSS](https://tailwindcss.com/) - For styles
-- [Framer Motion](https://www.framer.com) - For Animation
+- [React](https://reactjs.org/) - JS library <img src="https://skillicons.dev/icons?i=react"/>
+- [Next.js](https://nextjs.org/) - React framework <img src="https://skillicons.dev/icons?i=nexts"/>
+- [Tailwind CSS](https://tailwindcss.com/) - For styles <img src="https://skillicons.dev/icons?i=tailwind"/>
+- [Framer Motion](https://www.framer.com) - For Animation <i class="ci ci-framer-motion"></i>
 
 ### What I learned
 
